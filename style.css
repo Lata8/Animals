@@ -1,0 +1,125 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.contenedor{
+    width: 100%;
+
+}
+
+.all{
+    top: 0;
+    position: sticky;
+    height: 40px;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.menu{
+    display: inline-block;
+
+}
+
+.opciones{
+    margin-left: 780px;
+}
+
+.opme{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.opme a{
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.opme a:hover{
+    color: #199;
+}
+
+.imagenes{
+    height: 930px;
+    background-image: url(animales.jpeg);
+    opacity: 0.9;
+}
+
+.imagenes h1{
+    font-size: 50px;
+    padding-top: 400px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+.titulo{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.tituloA{
+    text-align: center;
+    color: white;
+}
+
+.info{
+    margin-left: 220px;
+    margin-right: 220px;
+    font-size: 20px;
+}
+
+.IMGinfo{
+    margin-top: 10px;
+    height: 900px;
+    width: 100%;
+}
+
+.tituloB{
+    font-size: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sub{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width:1000px){
+    .imagenes{
+        width: 100%;
+    }
+    .IMGinfo{
+        height: 500px;
+    }
+    .info{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .titulo{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+@media screen and (max-width:1000px){
+    .contenedor{
+        width: 100%;
+    }
+    .all{
+        height: 40px;
+    }
+    .opciones{
+        margin: 0;
+        display: block;
+    }
+}
